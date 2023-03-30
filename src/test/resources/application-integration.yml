@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    gcp:
+      project-id: "sandbox-custcomm-thd"
+
+bigtable:
+  instance-id: "test_instance"
+  table-id: "test_table_id"
+  columnFamilies:
+    - columnFamilyName: test_col_fam
+      rowKeyFields: field_1, field_2, field_3
+      qualifierNames: val_1, val_2, val_3
